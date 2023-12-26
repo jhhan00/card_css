@@ -9,3 +9,7 @@ container.addEventListener("mousemove", function(e) {
 
     container.style = `transform : perspective(300px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
 });
+
+container.addEventListener("mouseleave", function() {
+    container.style = "";
+});
