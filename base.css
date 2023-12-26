@@ -1,0 +1,12 @@
+.container {
+    width: 220px;
+    height: 310px;
+    transition: all 0.1s;
+}
+
+.card {
+    width: 220px;
+    height: 310px;
+    background-image: url(pk_1.jpeg);
+    background-size: cover;
+}
