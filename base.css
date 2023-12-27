@@ -1,12 +1,46 @@
-.container {
+.form1 {
+    padding: 20px;
+}
+
+.container1 {
     width: 220px;
     height: 310px;
     transition: all 0.1s;
+    padding-bottom: 30px;
 }
 
-.card {
+.card1 {
     width: 220px;
     height: 310px;
-    background-image: url(pk_1.jpeg);
+    background-image: url(img/pk_001.jpeg);
     background-size: cover;
+}
+
+.container2 {
+    width: 230px;
+    height: 320px;
+    transition: all 0.1s;
+    position: relative;
+}
+
+.card2 {
+    width: 230px;
+    height: 320px;
+    background-image: url(img/pk_002.jpeg);
+    background-size: cover;
+}
+
+.overlay1 {
+    position: absolute;
+    width: 230px;
+    height: 320px;
+    background: linear-gradient(105deg,
+    transparent 40%,
+    rgba(255, 219, 112, 0.8) 45%,
+    rgba(132, 50, 255, 0.6) 50%,
+    transparent 54%);
+    filter: brightness(1.2) opacity(0.8);
+    mix-blend-mode: color-dodge;
+    background-size: 150% 150%;
+    background-position: 100%;
 }
